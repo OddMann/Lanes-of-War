@@ -1,0 +1,163 @@
+{
+  "abilities":
+  [{
+    "Id":0,
+    "name":"BaseAttack",
+    "type":0,
+    "atk":20,
+    "attacks":1,
+    "size":2,
+    "life":1,
+    "speed":0,
+    "range":70,
+    "tagetable":false,
+    "trigger":2,
+    "effect":2,
+    "abilities":[0]
+  },{
+    "Id":1,
+    "name":"testRange",
+    "type":3,
+    "atk":20,
+    "attacks":1,
+    "size":2,
+    "life":7,
+    "speed":10,
+    "range":70,
+    "tagetable":false,
+    "trigger":2,
+    "effect":2,
+    "abilities":[]
+  },{
+    "Id":2,
+    "name":"testChain",
+    "type":2,
+    "atk":0,
+    "attacks":1,
+    "size":2,
+    "life":10,
+    "speed":10,
+    "range":200,
+    "tagetable":false,
+    "trigger":2,
+    "effect":2,
+    "abilities":[0]
+  },{
+    "Id":3,
+    "name":"SuperRange",
+    "type":3,
+    "atk":5,
+    "attacks":1,
+    "size":2,
+    "life":50,
+    "speed":8,
+    "range":400,
+    "tagetable":false,
+    "trigger":2,
+    "effect":2,
+    "abilities":[4]
+  },{
+    "Id":4,
+    "name":"Nuke",
+    "type":0,
+    "atk":100,
+    "attacks":1,
+    "size":10000,
+    "life":1,
+    "speed":0,
+    "range":100,
+    "tagetable":false,
+    "trigger":2,
+    "effect":2,
+    "abilities":[]
+  },{
+    "Id":5,
+    "name":"Cannon AoE",
+    "type":0,
+    "atk":100,
+    "attacks":2,
+    "size":20,
+    "life":1,
+    "speed":0,
+    "range":20,
+    "tagetable":false,
+    "trigger":2,
+    "effect":2,
+    "abilities":[]
+  },{
+    "Id":6,
+    "name":"Cannon Projectile",
+    "type":3,
+    "atk":0,
+    "attacks":1,
+    "size":2,
+    "life":14,
+    "speed":8,
+    "range":100,
+    "tagetable":false,
+    "trigger":2,
+    "effect":2,
+    "abilities":[5]
+  },{
+    "Id":7,
+    "name":"Castle projectile",
+    "type":3,
+    "atk":0,
+    "attacks":1,
+    "size":2,
+    "life":90,
+    "speed":4,
+    "range":100,
+    "tagetable":false,
+    "trigger":2,
+    "effect":2,
+    "abilities":[8]
+  },{
+    "Id" :8,
+    "name":"Castle aoe",
+    "type":0,
+    "atk" :20,
+    "attacks":1,
+    "size":20,
+    "life":2,
+    "speed":8,
+    "range":400,
+    "tagetable":false,
+    "trigger":2,
+    "effect":2,
+    "abilities":[]
+  }],
+  "upgrades":
+  [{
+    "Id": 0,
+    "name": "Income",
+    "type": 0,
+    "max" : 5,
+    "cost": 200,
+    "components":
+    [
+      {"tag": 0, "str": 0.5}
+    ]
+  },{
+    "Id": 1,
+    "name": "Attacks",
+    "type": 0,
+    "max" : 5,
+    "cost": 1000,
+    "components":
+    [
+      {"tag": 5, "str": 2}
+    ]
+  },{
+    "Id": 2,
+    "name": "Cannon",
+    "type": 0,
+    "max" : 1,
+    "cost": 2000,
+    "components":
+    [
+      {"tag": 6, "str": 7}
+    ]
+  }]
+
+}
